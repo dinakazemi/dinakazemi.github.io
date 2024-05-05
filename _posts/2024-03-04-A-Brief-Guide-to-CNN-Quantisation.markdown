@@ -19,7 +19,9 @@ The paper classifies the different quantisation techniques into two broad catego
 
 So, being the more predictive out of the two, deterministic is better suited for implementation on dedicated hardware where we want minimum randomness introduced in the quantisation process. Stochastic on the other hand, can give us better insights into the distribution of the values and is, therefore, more useful for experimentation purposes, and/or perhaps in situations where introducing some randomness into the training process can improve network performance.  
 
-Additionally, the paper details fixed codebook quantization where weights are quantized into predefined values, and adaptive codebook quantization where the codebook is learned from the data. Adaptive quantization is more flexible and can avoid ad hoc modifications to the training algorithm but may require more bits to represent the final codebook.
+Additionally, the paper details fixed codebook quantization where weights are quantized into predefined values, and adaptive codebook quantization where the codebook is learned from the data. Adaptive quantization is more flexible and can avoid ad hoc modifications to the training algorithm but may require more bits to represent the final codebook.  
+
+Other sources use different types of classification, for example gradient vs activation/weight quantisation and training-aware quantisation vs post-training quantisation.
 
 ---
 The fact that quantisation works and that we can get accuracies comparable to full precision CNNs really suggests that there is a lot of redundancy in CNN parameters and connections, implying that we can prune and quantize these networks without severe consequences on performance. Although better accuracy is always desirable, it should go hand-in-hand with accessibility; it's not always possible to use state-of-the-art GPUs and computational resources to get the job done.  
