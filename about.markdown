@@ -7,7 +7,7 @@ permalink: /about/
 
 Hi, My name is Dina. I'm a software engineer/AI researcher/archaeologist. I'm currently studying a PhD at the University of Sydney, where I'm looking at ensemble-based approaches for improving the performance of low precision neural networks. You can find my research portfolio [here](https://www.sydney.edu.au/engineering/about/our-people/research-students/dinakazemibeidokhti-kazemibeidokhti-671.html).  
 
-I helped develop a new method for detecting liver cancer using deep learning as a 2023 [CSIRO/Pawsey intern](https://pawsey.org.au/alumni/). Alhtough this was my first time working with vision transformers, I completely got why everyone in the field is so hyped up about them. This project and Dr House are the reasons I'm considering going into biomedical engineering sometime in the future.  
+I helped develop a new method for detecting liver cancer using deep learning as a 2023 [CSIRO/Pawsey intern](https://pawsey.org.au/alumni/). Although this was my first time working with vision transformers, I completely got why everyone in the field is so hyped up about them. This project and Dr House are the reasons I'm considering going into biomedical engineering sometime in the future.  
  
 I have experience working as a software engineer, developing and designing new components to help data engineers and scientists run AI experiments on an in-house platform, and deploying software infrastructure on AWS with terraform.  
 
