@@ -18,9 +18,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Quantise & Optimise
+title: Random Quests of a Fellow Human
 description: >- # this means to ignore newlines until "baseurl:"
-  Computer Vision | Deep Learning | NN Quantisation
+  My personal blog where I share my thoughts and experiences on various topics.
 baseurl: "" # the subpath of your site, e.g. /blog
 domain: dinakazemi.github.io # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
 url: https://dinakazemi.github.io # the base hostname and protocol for your site, e.g. http://example.com
